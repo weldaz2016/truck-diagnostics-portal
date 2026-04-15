@@ -1,0 +1,1113 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "61d7a708-3a4e-465c-953e-bacb4de381cc",
+        "text": {
+          "ops": [
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "ab021683-7678-448f-97fb-6e8d40d37714",
+            "text": {
+              "ops": [
+                {
+                  "insert": "function sendBAM(pgn: number, data: Uint8Array, sourceAddr: number) {"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "5afbe601-6358-42fc-afcc-1038b4ad75fd",
+            "text": {
+              "ops": [
+                {
+                  "insert": "{"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d90251fb-a971-4fab-8fe1-3d8d5fe4201d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\"symptom\": \"Low Power\","
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "810da0b8-3694-4c4f-a1a2-912e72ebb117",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\"steps\": [ { \"action\": \"read_dtcs\", \"if_dtcs\": [\"SPN 94 (Fuel Pressure)\", \"SPN 157 (Injector)\"], \"next\": \"fuel_system\" }, { \"action\": \"measure\", \"parameter\": \"SPN 110 (Boost Pressure)\", \"threshold\": \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"<30 psi\", \"next\": \"turbo_check\" } ],"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "7c0d39f0-7ffd-4047-8ee6-b565c7f1ab3f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "\"causes\": [ { \"component\": \"Turbocharger\", \"probability\": 0.6, \"tests\": [\"turbo_actuator\", \"boost_leak\"] }, { \"component\": \"Fuel Filter\", \"probability\": 0.3, \"tests\": [\"fuel_pressure\"] } ]"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "83555ff7-7a37-42d8-a81c-4b6be094ea25",
+            "text": {
+              "ops": [
+                {
+                  "insert": "}"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "11edf58d-e5b0-45f4-bc3f-0101b38bea7b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "┌─────────────────────────────────────────────────────┐"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "52a91b53-f20f-4f45-ac9b-b25f4d830f59",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│                   UI Layer                          │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "543f7432-0b12-4d8a-9b21-5ab2e578c4ce",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  (React Native / Electron / Flutter)                │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "35d3eb63-ba11-4d01-aabc-6049f8f908e7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Screens: DTC, Live Data, Tests, Reports          │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "9e22eebe-13f4-48b5-93f3-1f6a7d33b5ef",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - State Management: Redux / MobX / Zustand         │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1bfb698f-3032-4e2f-a6ef-71ac8860dda5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "└─────────────────────────────────────────────────────┘ ↓ ┌─────────────────────────────────────────────────────┐"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f3308952-a9ad-45a0-9041-c173d4d7f4da",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│              Application Services                   │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "98084fad-6106-445e-81b4-d87b8b3e6d82",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Session Manager (vehicle connection lifecycle)   │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d97e8252-3265-4b40-954d-2a1fcdb2c71f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Report Generator (PDF/CSV export)                │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c05cbf2a-0c21-433e-82ab-368baf992684",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Guided Diagnostics Engine                        │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "cfa5ba20-d659-448c-a021-9346e32027cb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Cloud Sync (reports, updates, analytics)         │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e9d0ab1b-702d-45ab-999e-464fbfd162a2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "└─────────────────────────────────────────────────────┘ ↓ ┌─────────────────────────────────────────────────────┐"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d490fc8d-84a6-4f7d-9237-458a3905dacd",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│              Diagnostics Core                       │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "1bd308ac-0cdc-4703-8392-984294a48e6d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - DTC Manager (read/clear/parse)                   │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "611d4c1f-005e-4671-9994-02b49dff5a84",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Live Data Streamer (parameter monitoring)        │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "fe6639db-775f-4c2e-b45c-9c0134603aae",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Bi-Directional Test Controller                   │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f69e6c6f-790a-415d-b518-7ac5a20ced2e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - ECU Discovery & Identification                   │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b3c836e7-92ee-493f-be90-16e006e998d9",
+            "text": {
+              "ops": [
+                {
+                  "insert": "└─────────────────────────────────────────────────────┘ ↓ ┌─────────────────────────────────────────────────────┐"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e2a8da32-176b-4869-b8d1-dfa4e6a15434",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│              Protocol Stack                         │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "632f652c-5c13-4375-bb95-0b8a26d6b789",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - J1939 Handler (PGN/SPN, transport protocol)      │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "14242269-6f89-4730-9532-928a94343c41",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - J1587 Handler (MID/PID message framing)          │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b66284be-82b0-40d3-9de0-d2034c755690",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - OBD-II Handler (ISO 15765, ISO-TP)               │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a6602c70-8a81-4a81-b569-3de6b0086991",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - UDS Handler (ISO 14229 services)                 │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4a523460-1885-44fa-a0cf-98924e257469",
+            "text": {
+              "ops": [
+                {
+                  "insert": "└─────────────────────────────────────────────────────┘ ↓ ┌─────────────────────────────────────────────────────┐"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "baa57894-b36b-45e9-b779-c2032a2d45a8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│         Adapter Abstraction Layer (AAL)             │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "dcc42c82-dbe7-4dd6-bbd8-ce7617169523",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Unified interface: connect, send, receive, disconnect │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "a2a05a62-a20d-4950-8e68-045115bedf06",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Adapter drivers: RP1210, Bluetooth, USB, Wi-Fi   │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4732c2a7-2324-464c-91ee-ed9ee3c2e570",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  - Auto-detection, multi-adapter support            │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f3e89ad6-5798-454b-9942-e93d18f85f31",
+            "text": {
+              "ops": [
+                {
+                  "insert": "└─────────────────────────────────────────────────────┘ ↓ ┌─────────────────────────────────────────────────────┐"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "97776720-21ab-4ae4-8115-65a195297626",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│          Hardware Interface Devices                 │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8934f656-6a0e-4217-9be6-71a1b6c3f12d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "│  (DPA 5, Nexiq, PCAN-USB, OBDLink MX+, etc.)        │"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "7e9e60b2-6197-4f97-bbd7-04272edeefdc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "└─────────────────────────────────────────────────────┘"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "94ccfdb3-a98b-431d-b688-bbf328e19f14",
+            "text": {
+              "ops": [
+                {
+                  "insert": "const numPackets = Math.ceil(data.length / 7);"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "dce10b5d-b401-453f-bed3-59593bf45912",
+            "text": {
+              "ops": [
+                {
+                  "insert": "const totalBytes = data.length;"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6400572e-e08b-45b2-ade2-dc07f457fad0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "// Send CM_BAM"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "67ab8974-696e-4be2-94f0-42e27685b74f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "const cmData = new Uint8Array([ 32, // BAM control byte totalBytes & 0xFF, (totalBytes >> 8) & 0xFF, numPackets, 0xFF, // Reserved pgn & 0xFF, (pgn >> 8) & 0xFF, (pgn >> 16) & 0xFF ]);"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "21e5cea1-ccb6-4766-8a3c-0b496efe506f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "sendJ1939(60416, 255, sourceAddr, cmData); // DA=255 (global)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2094f83b-df19-44f6-bf5e-d10eaf38cc82",
+            "text": {
+              "ops": [
+                {
+                  "insert": "// Send data packets (TP.DT)"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c372a71d-9167-44c2-a565-6c13d02cc693",
+            "text": {
+              "ops": [
+                {
+                  "insert": "for (let i = 0; i"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "📅"
+    },
+    "coverImageType": "background"
+  }
+}

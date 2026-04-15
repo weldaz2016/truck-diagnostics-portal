@@ -1,0 +1,29 @@
+{
+  "version": "2",
+  "flowTitle": "",
+  "trigger": {
+    "valid": true,
+    "displayName": "New Comment",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "BLANK",
+      "triggerName": "comment.created",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "06681d21-453f-43b3-af3f-1b6e44e8cec0",
+      "valid": false,
+      "displayName": "Send Channel Message",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-slack",
+        "pieceVersion": "BLANK",
+        "actionName": "chat.postMessage",
+        "input": {}
+      }
+    }
+  ]
+}

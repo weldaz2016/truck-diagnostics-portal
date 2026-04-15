@@ -1,0 +1,34 @@
+{
+  "version": "2",
+  "flowTitle": "Softwarre app builder Automation",
+  "trigger": {
+    "type": "EMPTY"
+  },
+  "actions": [
+    {
+      "name": "825c6a64-69d0-4738-a255-2676733438f8",
+      "valid": false,
+      "displayName": "Run Agent Command",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.run_command",
+        "input": {
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01KH5CYW5SWRB75QXPMDTQR9RQ"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "01KH5CYW5SWRB75QXPMDTQR9RQ": {
+      "id": "01KH5CYW5SWRB75QXPMDTQR9RQ",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    }
+  }
+}

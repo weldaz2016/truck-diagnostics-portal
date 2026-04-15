@@ -1,0 +1,41 @@
+{
+  "version": "2",
+  "flowTitle": "",
+  "trigger": {
+    "valid": true,
+    "displayName": "Task Completed",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "BLANK",
+      "triggerName": "task.completed",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "0764d40c-7e00-41f4-8832-cc29009ca811",
+      "valid": false,
+      "displayName": "Generate with AI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "ai.generate",
+        "input": {}
+      }
+    },
+    {
+      "name": "2bce917e-246e-4973-acc0-e52b2ca28440",
+      "valid": false,
+      "displayName": "Add Task",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {}
+      }
+    }
+  ]
+}
